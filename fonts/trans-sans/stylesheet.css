@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'Trans Sans';
+    src: url('TransSans-SemiBold.woff2') format('woff2'),
+        url('TransSans-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Trans Sans';
+    src: url('TransSans-Regular.woff2') format('woff2'),
+        url('TransSans-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* @font-face {
+    font-family: 'Trans Sans';
+    src: url('TransSans-Bold.woff2') format('woff2'),
+        url('TransSans-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+} */

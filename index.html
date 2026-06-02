@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kostenlose SEO-Tools &amp; Open Source | Digital Leap</title>
+<meta name="description" content="Kostenlose Web-Tools von Digital Leap: Mailto-Generator, Meta-Tag-Generator, iFrame-Generator, Schema-Generator und mehr – direkt im Browser, keine Anmeldung.">
+<link rel="canonical" href="https://digitalleap.github.io/">
+
+<!-- Open Graph -->
+<meta property="og:type"        content="website">
+<meta property="og:site_name"   content="Digital Leap">
+<meta property="og:title"       content="Kostenlose SEO-Tools &amp; Open Source | Digital Leap">
+<meta property="og:description" content="Kostenlose Web-Tools von Digital Leap – direkt im Browser, keine Anmeldung nötig.">
+<meta property="og:url"         content="https://digitalleap.github.io/">
+<meta property="og:locale"      content="de_DE">
+
+<!-- Twitter -->
+<meta name="twitter:card"        content="summary_large_image">
+<meta name="twitter:title"       content="Kostenlose SEO-Tools &amp; Open Source | Digital Leap">
+<meta name="twitter:description" content="Mailto-Generator, Meta-Tag-Generator, iFrame-Generator und mehr – kostenlos von Digital Leap.">
+
+<!-- JSON-LD: Organization -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Digital Leap GmbH",
+  "url": "https://digital-leap.de",
+  "email": "hallo@digital-leap.de",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Mainz",
+    "addressCountry": "DE"
+  },
+  "sameAs": [
+    "https://github.com/digitalleap",
+    "https://digitalleap.github.io/"
+  ]
+}
+</script>
+
+<!-- JSON-LD: ItemList (Tools) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Kostenlose SEO- und Web-Tools von Digital Leap",
+  "description": "Kostenlose Browser-Tools für Webentwicklung, SEO und Marketing",
+  "url": "https://digitalleap.github.io/#tools",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Mailto Link Generator",
+      "url": "https://digital-leap.de/tools/mailto-link-generator/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Meta Tag Generator",
+      "url": "https://digital-leap.de/tools/meta-tag-generator/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "iFrame Generator",
+      "url": "https://digital-leap.de/tools/iframe-generator/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 4,
+      "name": "Schema Markup Generator",
+      "url": "https://digital-leap.de/tools/schema-markup-generator/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 5,
+      "name": "Robots.txt Generator",
+      "url": "https://digital-leap.de/tools/robots-txt-generator/"
+    }
+  ]
+}
+</script>
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ─── HEADER ────────────────────────────────────────────────── -->
+<header class="site-header" role="banner">
+  <div class="wrap site-header__inner">
+    <a href="https://digital-leap.de/" class="site-header__logo" aria-label="Digital Leap – Zur Hauptseite">
+      <img src="assets/dl_logo-2024_neg.svg" alt="Digital Leap" width="130" height="30">
+    </a>
+    <a href="https://digital-leap.de/" class="site-header__back">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+        <path d="M19 12H5M5 12l7 7M5 12l7-7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+      digital-leap.de
+    </a>
+  </div>
+</header>
+
+<!-- ─── HERO ──────────────────────────────────────────────────── -->
+<section class="hero _bg-dark-purple text-white" aria-label="Intro">
+  <img class="hero__bg" src="assets/hero-background.svg" alt="" aria-hidden="true">
+  <div class="wrap">
+    <div class="hero__grid">
+      <div class="hero__content">
+      <span class="label label--ghost reveal">Open Source · GitHub · Digital Leap</span>
+      <h1 class="reveal">
+        Kostenlose Tools<br>
+        &amp; <em>Open Source</em><br>
+        von Digital Leap
+      </h1>
+      <p class="reveal">
+        Nützliche Web-Tools und Projekte – entwickelt von der Webdesign-Agentur
+        Digital Leap aus Mainz, kostenlos für alle. Keine Anmeldung, kein Tracking.
+      </p>
+      <div class="btn-wrapper reveal">
+        <a href="#tools" class="btn btn-lime">
+          <img src="assets/icons/i_arrow-right-dark.svg" class="icon-20" width="20" height="20" alt="" aria-hidden="true">
+          Zu den Tools
+        </a>
+        <a href="https://github.com/digitalleap" class="btn btn-outline-white" target="_blank" rel="noopener noreferrer">
+          <img src="assets/icons/github-white.svg" class="icon-20" width="20" height="20" alt="" aria-hidden="true">
+          GitHub
+        </a>
+      </div>
+    </div>
+
+      <!-- inner content injected via JS → see <template id="hero-visual"> at bottom -->
+      <div class="hero__visual" aria-hidden="true"></div>
+
+    </div><!-- /hero__grid -->
+  </div>
+</section>
+
+<!-- ─── GITHUB REPOS ───────────────────────────────────────────── -->
+<section class="_bg-white _pv-100" id="projekte" aria-labelledby="repos-heading">
+  <div class="wrap">
+    <div class="section-header reveal">
+      <span class="label">Open Source</span>
+      <h2 id="repos-heading">GitHub-Projekte</h2>
+      <p>Unsere öffentlichen Repositories – frei nutzbar, frei erweiterbar. Feedback und Contributions sind willkommen.</p>
+    </div>
+
+    <div class="card-grid card-grid--purple">
+
+      <!-- TODO: Repo 1 – Name, Beschreibung und URL anpassen -->
+      <a href="https://github.com/digitalleap/REPO_NAME_1"
+         class="tool-card reveal"
+         target="_blank" rel="noopener noreferrer"
+         aria-label="Repo 1 auf GitHub ansehen">
+        <div class="tool-card__icon" aria-hidden="true">
+          <img src="assets/icons/github-dark.svg" width="22" height="22" alt="" aria-hidden="true">
+        </div>
+        <div class="tool-card__body">
+          <h3 class="tool-card__title">Repo Name 1</h3>
+          <p class="tool-card__desc">Kurze Beschreibung des Repositories in ein bis zwei Sätzen. Was macht es, für wen ist es nützlich?</p>
+        </div>
+        <span class="tool-card__link" aria-hidden="true">
+          <img class="arrow-lime" src="assets/icons/i_arrow-right-lime.svg" width="20" height="20" alt="">
+          <img class="arrow-dark" src="assets/icons/i_arrow-right-dark.svg" width="20" height="20" alt="">
+        </span>
+      </a>
+
+      <!-- TODO: Repo 2 -->
+      <a href="https://github.com/digitalleap/REPO_NAME_2"
+         class="tool-card reveal reveal-delay-1"
+         target="_blank" rel="noopener noreferrer"
+         aria-label="Repo 2 auf GitHub ansehen">
+        <div class="tool-card__icon" aria-hidden="true">
+          <img src="assets/icons/github-dark.svg" width="22" height="22" alt="" aria-hidden="true">
+        </div>
+        <div class="tool-card__body">
+          <h3 class="tool-card__title">Repo Name 2</h3>
+          <p class="tool-card__desc">Kurze Beschreibung des Repositories in ein bis zwei Sätzen. Was macht es, für wen ist es nützlich?</p>
+        </div>
+        <span class="tool-card__link" aria-hidden="true">
+          <img class="arrow-lime" src="assets/icons/i_arrow-right-lime.svg" width="20" height="20" alt="">
+          <img class="arrow-dark" src="assets/icons/i_arrow-right-dark.svg" width="20" height="20" alt="">
+        </span>
+      </a>
+
+      <!-- TODO: Repo 3 -->
+      <a href="https://github.com/digitalleap/REPO_NAME_3"
+         class="tool-card reveal reveal-delay-2"
+         target="_blank" rel="noopener noreferrer"
+         aria-label="Repo 3 auf GitHub ansehen">
+        <div class="tool-card__icon" aria-hidden="true">
+          <img src="assets/icons/github-dark.svg" width="22" height="22" alt="" aria-hidden="true">
+        </div>
+        <div class="tool-card__body">
+          <h3 class="tool-card__title">Repo Name 3</h3>
+          <p class="tool-card__desc">Kurze Beschreibung des Repositories in ein bis zwei Sätzen. Was macht es, für wen ist es nützlich?</p>
+        </div>
+        <span class="tool-card__link" aria-hidden="true">
+          <img class="arrow-lime" src="assets/icons/i_arrow-right-lime.svg" width="20" height="20" alt="">
+          <img class="arrow-dark" src="assets/icons/i_arrow-right-dark.svg" width="20" height="20" alt="">
+        </span>
+      </a>
+
+    </div>
+
+    <div class="cta-row reveal">
+      <a href="https://github.com/digitalleap" class="btn btn-outline-dark" target="_blank" rel="noopener noreferrer">
+        Alle Repos auf GitHub ansehen
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ─── WP PLUGINS ─────────────────────────────────────────────── -->
+<section class="_bg-grey _pv-100" id="plugins" aria-labelledby="plugins-heading">
+  <div class="wrap">
+    <div class="section-header reveal">
+      <span class="label">WordPress</span>
+      <h2 id="plugins-heading">WordPress-Plugins</h2>
+      <p>Kostenlose Plugins aus unserer Agenturpraxis – installierbar über das WordPress-Repository oder direkt via GitHub.</p>
+    </div>
+
+    <div class="card-grid">
+
+      <!-- TODO: Plugin 1 – Name, Beschreibung und URL anpassen -->
+      <a href="https://wordpress.org/plugins/PLUGIN_SLUG_1/"
+         class="tool-card reveal"
+         target="_blank" rel="noopener noreferrer"
+         aria-label="Plugin 1 im WordPress-Repository ansehen">
+        <div class="tool-card__icon" aria-hidden="true">
+          <img src="assets/icons/i_plus-dark.svg" width="22" height="22" alt="">
+        </div>
+        <div class="tool-card__body">
+          <h3 class="tool-card__title">Plugin Name 1</h3>
+          <p class="tool-card__desc">Kurze Beschreibung des Plugins in ein bis zwei Sätzen. Welches Problem löst es, wer profitiert davon?</p>
+        </div>
+        <span class="tool-card__link" aria-hidden="true">
+          <img class="arrow-lime" src="assets/icons/i_arrow-right-lime.svg" width="20" height="20" alt="">
+          <img class="arrow-dark" src="assets/icons/i_arrow-right-dark.svg" width="20" height="20" alt="">
+        </span>
+      </a>
+
+      <!-- TODO: Plugin 2 -->
+      <a href="https://wordpress.org/plugins/PLUGIN_SLUG_2/"
+         class="tool-card reveal reveal-delay-1"
+         target="_blank" rel="noopener noreferrer"
+         aria-label="Plugin 2 im WordPress-Repository ansehen">
+        <div class="tool-card__icon" aria-hidden="true">
+          <img src="assets/icons/i_plus-dark.svg" width="22" height="22" alt="">
+        </div>
+        <div class="tool-card__body">
+          <h3 class="tool-card__title">Plugin Name 2</h3>
+          <p class="tool-card__desc">Kurze Beschreibung des Plugins in ein bis zwei Sätzen. Welches Problem löst es, wer profitiert davon?</p>
+        </div>
+        <span class="tool-card__link" aria-hidden="true">
+          <img class="arrow-lime" src="assets/icons/i_arrow-right-lime.svg" width="20" height="20" alt="">
+          <img class="arrow-dark" src="assets/icons/i_arrow-right-dark.svg" width="20" height="20" alt="">
+        </span>
+      </a>
+
+      <!-- TODO: Plugin 3 -->
+      <a href="https://wordpress.org/plugins/PLUGIN_SLUG_3/"
+         class="tool-card reveal reveal-delay-2"
+         target="_blank" rel="noopener noreferrer"
+         aria-label="Plugin 3 im WordPress-Repository ansehen">
+        <div class="tool-card__icon" aria-hidden="true">
+          <img src="assets/icons/i_plus-dark.svg" width="22" height="22" alt="">
+        </div>
+        <div class="tool-card__body">
+          <h3 class="tool-card__title">Plugin Name 3</h3>
+          <p class="tool-card__desc">Kurze Beschreibung des Plugins in ein bis zwei Sätzen. Welches Problem löst es, wer profitiert davon?</p>
+        </div>
+        <span class="tool-card__link" aria-hidden="true">
+          <img class="arrow-lime" src="assets/icons/i_arrow-right-lime.svg" width="20" height="20" alt="">
+          <img class="arrow-dark" src="assets/icons/i_arrow-right-dark.svg" width="20" height="20" alt="">
+        </span>
+      </a>
+
+    </div>
+
+    <div class="cta-row reveal">
+      <a href="https://wordpress.org/plugins/search/digital-leap/" class="btn btn-outline-dark" target="_blank" rel="noopener noreferrer">
+        Alle Plugins im WP-Repository
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ─── FREE TOOLS ─────────────────────────────────────────────── -->
+<section class="_bg-white _pv-100" id="tools" aria-labelledby="tools-heading">
+  <div class="wrap">
+    <div class="section-header reveal">
+      <span class="label">Kostenlos · Keine Anmeldung</span>
+      <h2 id="tools-heading">SEO &amp; Web-Tools</h2>
+      <p>Praktische Generatoren für Webentwickler, SEOs und Marketer – direkt im Browser, kein Download nötig.</p>
+    </div>
+
+    <div class="card-grid card-grid--purple">
+
+      <!-- TODO: URL anpassen -->
+      <a href="https://digital-leap.de/tools/mailto-link-generator/"
+         class="tool-card reveal"
+         aria-label="Mailto Link Generator öffnen">
+        <div class="tool-card__icon" aria-hidden="true">
+          <img src="assets/icons/i_mail-dark.svg" width="22" height="22" alt="">
+        </div>
+        <div class="tool-card__body">
+          <h3 class="tool-card__title">Mailto Link Generator</h3>
+          <p class="tool-card__desc">
+            Erstellt klickbare <code>mailto:</code>-Links mit Betreff, CC und vorgefülltem Inhalt –
+            ideal für Kontaktseiten und E-Mail-CTAs.
+          </p>
+        </div>
+        <span class="tool-card__link" aria-hidden="true">
+          <img class="arrow-lime" src="assets/icons/i_arrow-right-lime.svg" width="20" height="20" alt="">
+          <img class="arrow-dark" src="assets/icons/i_arrow-right-dark.svg" width="20" height="20" alt="">
+        </span>
+      </a>
+
+      <!-- TODO: URL anpassen -->
+      <a href="https://digital-leap.de/tools/meta-tag-generator/"
+         class="tool-card reveal reveal-delay-1"
+         aria-label="Meta Tag Generator öffnen">
+        <div class="tool-card__icon" aria-hidden="true">
+          <img src="assets/icons/i_search-dark.svg" width="22" height="22" alt="">
+        </div>
+        <div class="tool-card__body">
+          <h3 class="tool-card__title">Meta Tag Generator</h3>
+          <p class="tool-card__desc">
+            Generiert optimierte <code>&lt;meta&gt;</code>-Tags für Title, Description und Open Graph –
+            kopierfertig für jede Website.
+          </p>
+        </div>
+        <span class="tool-card__link" aria-hidden="true">
+          <img class="arrow-lime" src="assets/icons/i_arrow-right-lime.svg" width="20" height="20" alt="">
+          <img class="arrow-dark" src="assets/icons/i_arrow-right-dark.svg" width="20" height="20" alt="">
+        </span>
+      </a>
+
+      <!-- TODO: URL anpassen -->
+      <a href="https://digital-leap.de/tools/iframe-generator/"
+         class="tool-card reveal reveal-delay-2"
+         aria-label="iFrame Generator öffnen">
+        <div class="tool-card__icon" aria-hidden="true">
+          <img src="assets/icons/i_monitor-dark.svg" width="22" height="22" alt="">
+        </div>
+        <div class="tool-card__body">
+          <h3 class="tool-card__title">iFrame Generator</h3>
+          <p class="tool-card__desc">
+            Erstellt sauberen <code>&lt;iframe&gt;</code>-Code mit allen relevanten Attributen –
+            inklusive responsiver Einbettung und Sandbox-Optionen.
+          </p>
+        </div>
+        <span class="tool-card__link" aria-hidden="true">
+          <img class="arrow-lime" src="assets/icons/i_arrow-right-lime.svg" width="20" height="20" alt="">
+          <img class="arrow-dark" src="assets/icons/i_arrow-right-dark.svg" width="20" height="20" alt="">
+        </span>
+      </a>
+
+      <!-- TODO: URL anpassen -->
+      <a href="https://digital-leap.de/tools/schema-markup-generator/"
+         class="tool-card reveal"
+         aria-label="Schema Markup Generator öffnen">
+        <div class="tool-card__icon" aria-hidden="true">
+          <img src="assets/icons/i_gauge-dark.svg" width="22" height="22" alt="">
+        </div>
+        <div class="tool-card__body">
+          <h3 class="tool-card__title">Schema Markup Generator</h3>
+          <p class="tool-card__desc">
+            Erstellt strukturierte Daten im JSON-LD-Format für Google –
+            für LocalBusiness, FAQ, Artikel und weitere Schema.org-Typen.
+          </p>
+        </div>
+        <span class="tool-card__link" aria-hidden="true">
+          <img class="arrow-lime" src="assets/icons/i_arrow-right-lime.svg" width="20" height="20" alt="">
+          <img class="arrow-dark" src="assets/icons/i_arrow-right-dark.svg" width="20" height="20" alt="">
+        </span>
+      </a>
+
+      <!-- TODO: URL anpassen -->
+      <a href="https://digital-leap.de/tools/robots-txt-generator/"
+         class="tool-card reveal reveal-delay-1"
+         aria-label="Robots.txt Generator öffnen">
+        <div class="tool-card__icon" aria-hidden="true">
+          <img src="assets/icons/i_check-dark.svg" width="22" height="22" alt="">
+        </div>
+        <div class="tool-card__body">
+          <h3 class="tool-card__title">Robots.txt Generator</h3>
+          <p class="tool-card__desc">
+            Generiert eine korrekte <code>robots.txt</code> mit Regeln für alle gängigen Crawler –
+            inklusive Sitemap-Verweis und Custom-Direktiven.
+          </p>
+        </div>
+        <span class="tool-card__link" aria-hidden="true">
+          <img class="arrow-lime" src="assets/icons/i_arrow-right-lime.svg" width="20" height="20" alt="">
+          <img class="arrow-dark" src="assets/icons/i_arrow-right-dark.svg" width="20" height="20" alt="">
+        </span>
+      </a>
+
+    </div>
+  </div>
+</section>
+
+<!-- ─── ABOUT ──────────────────────────────────────────────────── -->
+<section class="_bg-dark-purple text-white _pv-100" id="ueber-uns" aria-labelledby="about-heading">
+  <div class="wrap">
+    <div class="about-inner reveal">
+      <span class="label label--ghost">Die Macher</span>
+      <h2 id="about-heading">Über <em>Digital Leap</em></h2>
+      <p>
+        Digital Leap ist eine Webdesign-Agentur aus Mainz. Wir bauen Websites,
+        die bei Google gefunden werden und Anfragen bringen – mit SEO von Anfang an,
+        ohne Agentur-Overhead. Diese Tools und Projekte entstehen bei unserer täglichen
+        Arbeit und stellen wir der Community kostenlos zur Verfügung.
+      </p>
+      <div class="btn-wrapper">
+        <a href="https://digital-leap.de/" class="btn btn-lime">
+          <img src="assets/icons/i_arrow-right-dark.svg" class="icon-20" width="20" height="20" alt="" aria-hidden="true">
+          Zur Website
+        </a>
+        <a href="https://digital-leap.de/kontakt/" class="btn btn-outline-white">
+          Kontakt aufnehmen
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ─── FOOTER ─────────────────────────────────────────────────── -->
+<footer class="site-footer" role="contentinfo">
+  <div class="wrap site-footer__inner">
+    <a href="https://digital-leap.de/" aria-label="Digital Leap – Zur Hauptseite">
+      <img src="assets/dl_logo-2024_neg.svg" alt="Digital Leap" width="110" height="26">
+    </a>
+    <p class="site-footer__copy">
+      Erstellt von <a href="https://digital-leap.de/">Digital Leap</a> –
+      SEO, KI-Automatisierung und Web-Tools aus Mainz.
+    </p>
+    <nav class="site-footer__links" aria-label="Footer-Links">
+      <a href="https://digital-leap.de/impressum/">Impressum</a>
+      <a href="https://digital-leap.de/datenschutz/">Datenschutz</a>
+      <a href="https://github.com/digitalleap" target="_blank" rel="noopener noreferrer">GitHub</a>
+    </nav>
+  </div>
+</footer>
+
+<!-- Decorative hero visual — kept in <template> so crawlers and
+     initial HTML parse never see or index this content. -->
+<template id="hero-visual">
+  <div class="hero__visual" aria-hidden="true">
+
+    <div class="hero__term">
+      <div class="hero__term-chrome">
+        <div class="hero__term-dots"><span></span><span></span><span></span></div>
+        <div class="hero__term-title">zsh — digital-leap</div>
+      </div>
+      <div class="hero__term-body">
+        <div class="hero__term-line">
+          <span class="term-prompt">$</span>
+          <span class="term-cmd">git clone github.com/digitalleap</span>
+        </div>
+        <div class="hero__term-line">
+          <span class="term-check">✓</span>
+          <span class="term-out">3 Repos geklont</span>
+        </div>
+        <div class="hero__term-gap"></div>
+        <div class="hero__term-line">
+          <span class="term-prompt">$</span>
+          <span class="term-cmd">wp plugin install dl-tools</span>
+        </div>
+        <div class="hero__term-line">
+          <span class="term-check">✓</span>
+          <span class="term-out">Plugin installiert</span>
+        </div>
+        <div class="hero__term-gap"></div>
+        <div class="hero__term-line">
+          <span class="term-prompt">$</span>
+          <span class="term-cmd">open digital-leap.de/tools/<span class="term-cursor"></span></span>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero__badge hero__badge--tools">
+      <img src="assets/icons/i_gauge-dark.svg" width="18" height="18" alt="">
+      <div>
+        <div class="hero__badge-title">Kostenlose Tools</div>
+        <div class="hero__badge-sub">Keine Anmeldung nötig</div>
+      </div>
+    </div>
+
+    <div class="hero__badge hero__badge--oss">
+      <img src="assets/icons/github-dark.svg" width="18" height="18" alt="" aria-hidden="true">
+      <div>
+        <div class="hero__badge-title">Open Source</div>
+        <div class="hero__badge-sub">github.com/digitalleap</div>
+      </div>
+    </div>
+
+  </div>
+</template>
+
+<script>
+  // Inject decorative hero visual content (keeps inner markup out of crawler parse)
+  const tpl = document.getElementById('hero-visual');
+  if (tpl) {
+    const visual = document.querySelector('.hero__visual');
+    if (visual) visual.appendChild(tpl.content.cloneNode(true));
+  }
+
+  // Reveal on scroll
+  const observer = new IntersectionObserver(
+    entries => entries.forEach(e => {
+      if (e.isIntersecting) { e.target.classList.add('is-visible'); observer.unobserve(e.target); }
+    }),
+    { threshold: 0.1 }
+  );
+  document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+</script>
+
+</body>
+</html>
